@@ -406,6 +406,19 @@
                     "ioValue": "atoms/446027/911958Color"
                 }
             ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.8313492063492063,
+            "y": 0.7371794871794872,
+            "uniqueID": 981611,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/446027/227904Difference"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -485,6 +498,13 @@
             "ap2Primary": true,
             "ap1ID": 227904,
             "ap2ID": 911958
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 227904,
+            "ap2ID": 981611
         },
         {
             "ap1Name": "geometry",
